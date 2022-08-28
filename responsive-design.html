@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/dff9b69981.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==">
+    
+    <style>
+        body{
+            background: lightgray;
+        }
+        .botton::before {
+            font-family: "FontAwesome"; content: "\f217";
+        }
+        .product{
+            text-align: center;
+        }
+        .botton{
+            text-align: center;
+            background-color: navy;
+            border-radius: 3px;
+            color: white;
+            padding: 1px;
+        }
+        .flexible {
+			background-color: white;
+			color: white;
+			text-align: center;
+			width: auto;
+            height: auto;
+            margin-left: 15%;
+            margin-right: 15%;
+		}
+		.content {
+			background-color: gray;
+			margin: 1%;
+            padding: 3%;
+		}
+		@media (min-width : 600px){
+			.product { text-align: left; }
+			.flexible { display: inline-flex;}
+			.content { margin: 1%;
+            padding: 2%; }
+            .botton{margin-left: 40%;
+            margin-right: 40%;}
+		}
+    </style>
+</head>
+
+<body>
+    <div class="flexible">
+        
+		<div class="product">
+            <img src="imgs/clock.jpg">
+            
+        </div>
+
+        <div class="content">
+            Garmin Instinct, Rugged Outdoor Watch with GPS, 
+            Features GLONASS and Galileo, Heart Rate Monitoring and
+            3-axis Compass, Tundra<br><br>
+            <div class="wrap">
+                <a href="">
+                    <div class="botton">Add to cart</div>
+                </a>
+            </div>
+		</div>
+
+    </div>
+
+</body>
+</html>
